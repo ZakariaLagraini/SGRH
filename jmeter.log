@@ -1,0 +1,78 @@
+2024-12-13 15:43:12,341 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-12-13 15:43:12,363 INFO o.a.j.JMeter: Loading user properties from: C:\dev\apache-jmeter-5.6.3\bin\user.properties
+2024-12-13 15:43:12,363 INFO o.a.j.JMeter: Loading system properties from: C:\dev\apache-jmeter-5.6.3\bin\system.properties
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: Version 5.6.3
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: java.version=17.0.12
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: os.name=Windows 11
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: os.arch=amd64
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: os.version=10.0
+2024-12-13 15:43:12,381 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-12-13 15:43:12,382 INFO o.a.j.JMeter: java.awt.headless=null
+2024-12-13 15:43:12,382 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-12-13 15:43:12,382 INFO o.a.j.JMeter: Available Processors =12
+2024-12-13 15:43:12,392 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-12-13 15:43:12,392 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-12-13 15:43:12,392 INFO o.a.j.JMeter: JMeterHome=C:\dev\apache-jmeter-5.6.3
+2024-12-13 15:43:12,392 INFO o.a.j.JMeter: user.dir  =C:\Users\MSI\Desktop\GestionReservation
+2024-12-13 15:43:12,393 INFO o.a.j.JMeter: PWD       =C:\Users\MSI\Desktop\GestionReservation
+2024-12-13 15:43:17,380 INFO o.a.j.JMeter: IP: 172.21.96.1 Name: DESKTOP-26J8719 FullName: DESKTOP-26J8719
+2024-12-13 15:43:17,436 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-12-13 15:43:17,766 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-12-13 15:43:18,985 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-grpc-request.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:19,626 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:19,778 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-grpc-request.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:19,789 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:20,301 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-890dd92790187d2b82de431878ca4109-gui
+2024-12-13 15:43:20,545 WARN o.j.r.PluginManagerMenuItem: Failed to load plugin updates info
+java.net.UnknownHostException: No such host is known (jmeter-plugins.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1532) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1384) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:499) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:494) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getJSON(JARSourceHTTP.java:152) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepositories(JARSourceHTTP.java:276) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepo(JARSourceHTTP.java:304) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:71) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:38) [jmeter-plugins-manager-1.10.jar:?]
+2024-12-13 15:43:21,328 INFO o.a.j.JMeterGuiLauncher: Loading file: HTTP Request.jmx
+2024-12-13 15:43:21,330 INFO o.a.j.s.FileServer: Default base='C:\Users\MSI\Desktop\GestionReservation'
+2024-12-13 15:43:21,332 INFO o.a.j.s.FileServer: Set new base='C:\Users\MSI\Desktop\GestionReservation'
+2024-12-13 15:43:21,658 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-12-13 15:43:21,675 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-12-13 15:43:21,680 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-12-13 15:43:21,683 INFO o.a.j.s.SaveService: Loading file: HTTP Request.jmx
+2024-12-13 15:43:21,807 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-13 15:43:21,807 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-13 15:43:21,807 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-13 15:43:21,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-13 15:43:21,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-12-13 15:43:21,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-12-13 15:43:21,879 INFO o.a.j.s.FileServer: Set new base='C:\Users\MSI\Desktop\GestionReservation'
+2024-12-13 15:43:22,131 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-12-13 15:43:22,131 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-12-13 15:43:22,131 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-12-13 15:43:22,131 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-12-13 15:43:22,266 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-grpc-request.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:22,278 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:22,326 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-grpc-request.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:22,338 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:22,455 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-grpc-request.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:22,466 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:22,487 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-grpc-request.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-13 15:43:22,497 INFO o.a.j.r.ClassFinder: Will scan jar C:\dev\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning

@@ -1,0 +1,56 @@
+# Type Reservation
+type Reservation {
+  id: ID!
+  dateDebut: String!
+  dateFin: String!
+  preferences: String
+  client: Client!
+  chambre: Chambre!
+}
+
+# Type Client
+type Client {
+  id: ID!
+  nom: String!
+  prenom: String!
+  email: String!
+}
+
+# Type Chambre
+type Chambre {
+  id: ID!
+  numero: Int!
+  type: String!
+  prix: Float!
+}
+
+# Input pour la création d'une réservation
+input ReservationInput {
+  dateDebut: String!
+  dateFin: String!
+  preferences: String
+  clientId: ID!
+  chambreId: ID!
+}
+
+# Input pour la mise à jour d'une réservation
+input ReservationDTO {
+  dateDebut: String
+  dateFin: String
+  preferences: String
+  clientId: ID
+  chambreId: ID
+}
+
+# Type des Mutations
+type Mutation {
+  createReservation(input: ReservationInput!): Reservation!
+  updateReservation(id: ID!, input: ReservationInput!): Reservation!
+  deleteReservation(id: ID!): Boolean!
+}
+
+# Type des Query
+type Query {
+  getAllReservations: [Reservation]
+  getReservationById(id: ID!): Reservation
+}
